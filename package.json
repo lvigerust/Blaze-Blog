@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-vercel": "^2.4.3",
 		"@sveltejs/kit": "^1.5.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
@@ -33,6 +34,10 @@
 		"@fontsource/jetbrains-mono": "^4.5.12",
 		"@fontsource/manrope": "^4.5.13",
 		"lucide-svelte": "^0.214.0",
-		"open-props": "^1.5.8"
+		"open-props": "^1.5.8",
+		"rehype-slug": "^5.1.0",
+		"remark-toc": "^8.0.1",
+		"remark-unwrap-images": "^3.0.1",
+		"shiki": "^0.14.2"
 	}
 }

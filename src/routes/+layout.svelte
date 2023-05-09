@@ -7,13 +7,19 @@
 	import 'open-props/buttons'
 
 	import '../app.css'
+	import PageTransition from '$components/PageTransition.svelte'
+
+	export let data
+	$: ({ url } = data)
 </script>
 
 <div class="layout">
 	<Header />
 
 	<main>
-		<slot />
+		<PageTransition {url}>
+			<slot />
+		</PageTransition>
 	</main>
 
 	<Footer />
